@@ -1,0 +1,5510 @@
+{
+ "task_count": 100,
+ "index_count": 100,
+ "errors": [],
+ "validated": 100,
+ "passed": 100,
+ "tasks": [
+  {
+   "task_id": "rvb-arxid--permute--out-of-domain-input-is-reduced-not-rejected",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 21.7,
+    "peak_memory_bytes": 653021184,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-arxid--permute--output-never-leaves-the-domain",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.9,
+    "peak_memory_bytes": 611545088,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-arxid--permute--round-trip-over-the-whole-domain",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 21.7,
+    "peak_memory_bytes": 640860160,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-bloom2--vec-bitmap--insert-contains",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.9,
+    "peak_memory_bytes": 569782272,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-blue--scrunch-binary-search--binary-search-finds-index",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.5,
+    "peak_memory_bytes": 565612544,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-byteorder--endian--u128-little-endian-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.2,
+    "peak_memory_bytes": 611708928,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-byteorder--endian--u64-big-endian-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.6,
+    "peak_memory_bytes": 576397312,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-byteorder-lite--uint--uint-3-big-endian-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.3,
+    "peak_memory_bytes": 587685888,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-byteorder-lite--uint--uint128-9-little-endian-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 18.7,
+    "peak_memory_bytes": 607539200,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-crc32fast--baseline--fast-16-is-the-same-as-slow",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 148.1,
+    "peak_memory_bytes": 2137452544,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-crypto-bigint--uint--le-bytes-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 35.1,
+    "peak_memory_bytes": 543281152,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-crypto-bigint--uint--wrapping-add-matches-biguint",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 43.1,
+    "peak_memory_bytes": 533200896,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-crypto-bigint--uint--wrapping-and-matches-biguint",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.4,
+    "peak_memory_bytes": 593969152,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-crypto-bigint--uint--wrapping-sub-matches-biguint",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 24.4,
+    "peak_memory_bytes": 659079168,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-crypto-bigint--uint--wrapping-xor-matches-biguint",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.0,
+    "peak_memory_bytes": 604348416,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-dashu--base--i64-div-rem-euclid-matches-std",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 18.8,
+    "peak_memory_bytes": 587898880,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-dashu--base--i64-div-rem-reconstructs",
+   "errors": [],
+   "isolation_probes": 4,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.3,
+    "peak_memory_bytes": 551219200,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-dashu--base--u128-div-rem-reconstructs",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.2,
+    "peak_memory_bytes": 574648320,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-dashu--base--u64-is-power-of-two-iff-one-bit",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.1,
+    "peak_memory_bytes": 607711232,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-dlt-parse--storage-header--from-bytes-roundtrip-and-pattern-error",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.1,
+    "peak_memory_bytes": 632565760,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-etherparse--link--ethernet2-from-bytes-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.6,
+    "peak_memory_bytes": 583651328,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-etherparse--link--ethernet2-write-to-slice",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.9,
+    "peak_memory_bytes": 590954496,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-etherparse--link--linux-sll-from-bytes-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 55.4,
+    "peak_memory_bytes": 622473216,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-etherparse--net--ipv4-payload-len",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 18.1,
+    "peak_memory_bytes": 590356480,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-etherparse--net--ipv6-raw-ext-new-raw",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.4,
+    "peak_memory_bytes": 687915008,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-etherparse--net--ipv6-set-dscp",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.1,
+    "peak_memory_bytes": 569556992,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-etherparse--transport--igmp-flags-set",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 21.1,
+    "peak_memory_bytes": 568283136,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-fastdivide--divider--divide-by-11-matches-native-division",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.3,
+    "peak_memory_bytes": 587194368,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-fastdivide--divider--divide-by-7-matches-native-division",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.5,
+    "peak_memory_bytes": 582266880,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-fastdivide--divider--divide-matches-native-division",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 25.3,
+    "peak_memory_bytes": 816197632,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-goldilocks--field--add-matches-naive",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.1,
+    "peak_memory_bytes": 583782400,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-goldilocks--field--construct-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.5,
+    "peak_memory_bytes": 843337728,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-goldilocks--field--mont-pow-add-exponents",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.1,
+    "peak_memory_bytes": 848429056,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-goldilocks--field--mul-commutative",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.9,
+    "peak_memory_bytes": 825139200,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-goldilocks--field--sub-matches-naive",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.7,
+    "peak_memory_bytes": 595193856,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-indexed-bitvec--word--ceil-div-matches-slow",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.4,
+    "peak_memory_bytes": 575909888,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-indexed-bitvec--word--ceil-div-u64-matches-slow",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.7,
+    "peak_memory_bytes": 574996480,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-indexed-bitvec--word--select-ones-inverts-rank",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 37.8,
+    "peak_memory_bytes": 1091260416,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-indexed-bitvec--word--set-updates-only-target-bit",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.4,
+    "peak_memory_bytes": 582483968,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-jiff--civil--time-to-nanosecond-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.0,
+    "peak_memory_bytes": 731299840,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-lilliput--int-value--signed-int-value-cmp-across-widths",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.9,
+    "peak_memory_bytes": 575205376,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-lilliput--int-value--unsigned-int-value-cmp-across-widths",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.1,
+    "peak_memory_bytes": 589410304,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-lilliput--int-value--unsigned-int-value-eq-across-widths",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.9,
+    "peak_memory_bytes": 569638912,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-memchr--twoway--suffix-forward-maximal",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 22.1,
+    "peak_memory_bytes": 738217984,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-memchr--twoway--suffix-reverse-maximal",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 24.3,
+    "peak_memory_bytes": 884727808,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--from-be-bytes-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.0,
+    "peak_memory_bytes": 569315328,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--from-high-low-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.1,
+    "peak_memory_bytes": 562233344,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--from-unix-time-secs-before-nt-time-epoch-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.6,
+    "peak_memory_bytes": 568033280,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--from-unix-time-secs-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.9,
+    "peak_memory_bytes": 578625536,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--from-unix-time-secs-with-too-big-date-time-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.2,
+    "peak_memory_bytes": 574525440,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--to-be-bytes-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.5,
+    "peak_memory_bytes": 583303168,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--to-high-low-roundtrip",
+   "errors": [],
+   "isolation_probes": 3,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.2,
+    "peak_memory_bytes": 578228224,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--to-le-bytes-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.5,
+    "peak_memory_bytes": 592146432,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-nt-time--file-time--to-unix-time-nanos-roundtrip",
+   "errors": [],
+   "isolation_probes": 4,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.1,
+    "peak_memory_bytes": 575471616,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-openpql-prelude--card--card64-count-matches-contains-card",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.6,
+    "peak_memory_bytes": 745041920,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-openpql-prelude--util--binom-pascals-identity",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.8,
+    "peak_memory_bytes": 621527040,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-openpql-prelude--util--const-sort-matches-sort-unstable",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.6,
+    "peak_memory_bytes": 628219904,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-openpql-prelude--util--mixed-radix-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 26.1,
+    "peak_memory_bytes": 613863424,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-openpql-prelude--util--suffix-product-matches-reference",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.1,
+    "peak_memory_bytes": 531451904,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-order-stat--quickselect--select-kth-is-kth-smallest",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 28.6,
+    "peak_memory_bytes": 881205248,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-partition--slice-partition--partition-index-separates-even-odd",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 23.7,
+    "peak_memory_bytes": 583192576,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--bb-add-sub-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 18.2,
+    "peak_memory_bytes": 559943680,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--bb-from-to-monty-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 21.6,
+    "peak_memory_bytes": 642342912,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--bb-large-monty-reduce-identity",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 22.4,
+    "peak_memory_bytes": 620023808,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--bb-monty-reduce-output-range",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 24.5,
+    "peak_memory_bytes": 559247360,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--bb-monty-reduce-u128-agrees-with-u64",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 29.3,
+    "peak_memory_bytes": 672882688,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--bb-to-monty-64-extends-32",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 23.8,
+    "peak_memory_bytes": 478355456,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--kb-add-commutative",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 24.1,
+    "peak_memory_bytes": 498630656,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--kb-large-agrees-with-standard",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 32.1,
+    "peak_memory_bytes": 618242048,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--kb-large-monty-reduce-output-range",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 33.1,
+    "peak_memory_bytes": 589991936,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--kb-monty-mul-correct",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.1,
+    "peak_memory_bytes": 699039744,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--kb-monty-reduce-identity",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 18.5,
+    "peak_memory_bytes": 648630272,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--kb-monty-reduce-u128-identity",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 21.5,
+    "peak_memory_bytes": 770707456,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--kb-to-from-monty-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.0,
+    "peak_memory_bytes": 672952320,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--monty31-utils--kb-to-monty-output-range",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.8,
+    "peak_memory_bytes": 572145664,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-plonky3--util--log3-strict-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 23.4,
+    "peak_memory_bytes": 632913920,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-quantiles--greenwald-khanna--find-insert-pos-matches-linear",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.8,
+    "peak_memory_bytes": 613158912,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-rev-bits--u32--decrement-is-correct",
+   "errors": [],
+   "isolation_probes": 1,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 15.7,
+    "peak_memory_bytes": 583172096,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-rev-bits--u32--to-array-to-u32",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.3,
+    "peak_memory_bytes": 642289664,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-ruint--gcd-matrix--from-u64-gcd",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 23.2,
+    "peak_memory_bytes": 681697280,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-ruint--gcd-matrix--from-u64-prefix-gcd",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 66.5,
+    "peak_memory_bytes": 1057177600,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-ruint--uint-add--inverse",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 37.5,
+    "peak_memory_bytes": 696066048,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-rust-crdt--dot--prop-ordered-dot-is-ordered-by-actor-first",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 18.8,
+    "peak_memory_bytes": 558489600,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-rust-crdt--dot--prop-partial-order",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.5,
+    "peak_memory_bytes": 562499584,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-sdset--duo-union--union-iter-matches-btreeset-union",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.6,
+    "peak_memory_bytes": 607608832,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-sigma-ser--zigzag--encode-i32-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.2,
+    "peak_memory_bytes": 564256768,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-sigma-ser--zigzag--encode-i64-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.6,
+    "peak_memory_bytes": 581017600,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-static-filez--slice--slice-encoding-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.5,
+    "peak_memory_bytes": 580792320,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-succinct--broadword--count-ones-matches-std",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 21.4,
+    "peak_memory_bytes": 793243648,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-succinct--broadword--u-le8-bytewise",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 18.7,
+    "peak_memory_bytes": 649371648,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-succinct--broadword--u-nz8-bytewise",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.0,
+    "peak_memory_bytes": 591048704,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-tinyset--fits64--fits-i64-roundtrip",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.5,
+    "peak_memory_bytes": 580452352,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-uint--u64--associative-add",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 16.3,
+    "peak_memory_bytes": 577511424,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-use-combinatorics--counting--factorial-matches-checked-reference",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.9,
+    "peak_memory_bytes": 602394624,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-use-combinatorics--counting--factorial-overflow-boundary-is-exact",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 20.0,
+    "peak_memory_bytes": 602550272,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-use-combinatorics--counting--permutations-match-checked-reference",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.4,
+    "peak_memory_bytes": 638484480,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-varing--packable--mix-roundtrip-i16-i64",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 21.4,
+    "peak_memory_bytes": 636420096,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-varing--packable--mix-roundtrip-i8-u64",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 19.9,
+    "peak_memory_bytes": 660439040,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-varing--packable--mix-roundtrip-u32-u64",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.2,
+    "peak_memory_bytes": 600887296,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  },
+  {
+   "task_id": "rvb-varing--packable--roundtrip-u64",
+   "errors": [],
+   "isolation_probes": 5,
+   "isolated": true,
+   "agent_env_offline_elaboration": true,
+   "reference": {
+    "exit": 0,
+    "reward": "1",
+    "status": "passed",
+    "outcome": "passed",
+    "seconds": 17.8,
+    "peak_memory_bytes": 578924544,
+    "tail": ""
+   },
+   "negatives": {
+    "blank_skeleton": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    },
+    "sorry": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "weakened_statement": {
+     "reward": "0",
+     "status": "theorem_statement_mismatch",
+     "exit": 0
+    },
+    "extra_axiom": {
+     "reward": "0",
+     "status": "forbidden_placeholder",
+     "exit": 0
+    },
+    "forbidden_import": {
+     "reward": "0",
+     "status": "hidden_import",
+     "exit": 0
+    },
+    "spec_shadowing": {
+     "reward": "0",
+     "status": "lean_check_failed",
+     "exit": 0
+    }
+   },
+   "infra_simulation": {
+    "reward": null,
+    "status": "harness_error",
+    "exit": 2,
+    "outcome": "invalid"
+   },
+   "ok": true
+  }
+ ],
+ "validator_fix": "openpql rerun after fixing regex false positive (\\bgit\\b matched 'digits')"
+}

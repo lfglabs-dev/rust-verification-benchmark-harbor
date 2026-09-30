@@ -1,0 +1,18 @@
+{
+  "status": "solved",
+  "attempts": 2,
+  "tool_calls": 44,
+  "exploration_calls": 33,
+  "lean_runs": 11,
+  "turns": 35,
+  "usage": {
+    "prompt_tokens": 1314486,
+    "completion_tokens": 68447,
+    "total_tokens": 1382933
+  },
+  "final_candidate": null,
+  "last_failure_class": "unknown_name",
+  "error": null,
+  "duration_seconds": 1376.96,
+  "resumed": 0
+}

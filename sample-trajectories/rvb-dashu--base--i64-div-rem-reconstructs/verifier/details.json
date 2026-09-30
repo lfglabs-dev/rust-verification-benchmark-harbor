@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "task_ref": "dashu/base/i64_div_rem_reconstructs",
+  "submission": "/workspace/Benchmark/Generated/Dashu/Base/Tasks/I64DivRemReconstructs.lean",
+  "status": "passed",
+  "detail": "",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "submitted_sha256": "sha256:8178e754acf8e57631e13ec4fe97aec5e0bdd240921f696d7051acdf1c9ef1e6",
+  "duration_seconds": 19.5,
+  "outcome": "passed",
+  "reward": 1
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/logs/artifacts",
+    "destination": "artifacts",
+    "type": "directory",
+    "status": "empty"
+  },
+  {
+    "source": "/workspace/Benchmark/Generated/Fastdivide/Divider/Tasks/DivideBy7MatchesNativeDivision.lean",
+    "destination": "artifacts/DivideBy7MatchesNativeDivision.lean",
+    "type": "file",
+    "status": "ok"
+  }
+]

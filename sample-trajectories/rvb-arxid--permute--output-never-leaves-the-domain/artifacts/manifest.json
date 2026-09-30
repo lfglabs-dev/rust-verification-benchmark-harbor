@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/logs/artifacts",
+    "destination": "artifacts",
+    "type": "directory",
+    "status": "empty"
+  },
+  {
+    "source": "/workspace/Benchmark/Generated/Arxid/Permute/Tasks/OutputNeverLeavesTheDomain.lean",
+    "destination": "artifacts/OutputNeverLeavesTheDomain.lean",
+    "type": "file",
+    "status": "ok"
+  }
+]
