@@ -1,0 +1,197 @@
+{
+ "export": {
+  "task_count": 100,
+  "passed": 100,
+  "errors": [],
+  "isolated": 100,
+  "offline_elaboration": 100,
+  "reference_reward_1": 100,
+  "negatives": {
+   "kinds": [
+    "blank_skeleton",
+    "extra_axiom",
+    "forbidden_import",
+    "sorry",
+    "spec_shadowing",
+    "weakened_statement"
+   ],
+   "tasks_all_rejected": 100
+  },
+  "infra_simulation_invalid": 100
+ },
+ "verifier_resources": {
+  "seconds": {
+   "min": 15.2,
+   "median": 18.75,
+   "p95": 37.5,
+   "max": 148.1
+  },
+  "peak_memory_gib": {
+   "min": 0.44550323486328125,
+   "median": 0.5523281097412109,
+   "p95": 0.7901611328125,
+   "max": 1.9906578063964844
+  }
+ },
+ "harbor_end_to_end": [
+  {
+   "agent": "nop",
+   "task_id": "rvb-arxid--permute--round-trip-over-the-whole-domain",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "nop",
+   "task_id": "rvb-blue--scrunch-binary-search--binary-search-finds-index",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "nop",
+   "task_id": "rvb-openpql-prelude--util--mixed-radix-roundtrip",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "nop",
+   "task_id": "rvb-succinct--broadword--count-ones-matches-std",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "nop",
+   "task_id": "rvb-uint--u64--associative-add",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "nop",
+   "task_id": "rvb-varing--packable--roundtrip-u64",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "oracle",
+   "task_id": "rvb-arxid--permute--round-trip-over-the-whole-domain",
+   "reward": "1",
+   "expected": "1",
+   "ok": true
+  },
+  {
+   "agent": "oracle",
+   "task_id": "rvb-blue--scrunch-binary-search--binary-search-finds-index",
+   "reward": "1",
+   "expected": "1",
+   "ok": true
+  },
+  {
+   "agent": "oracle",
+   "task_id": "rvb-openpql-prelude--util--mixed-radix-roundtrip",
+   "reward": "1",
+   "expected": "1",
+   "ok": true
+  },
+  {
+   "agent": "oracle",
+   "task_id": "rvb-succinct--broadword--count-ones-matches-std",
+   "reward": "1",
+   "expected": "1",
+   "ok": true
+  },
+  {
+   "agent": "oracle",
+   "task_id": "rvb-uint--u64--associative-add",
+   "reward": "1",
+   "expected": "1",
+   "ok": true
+  },
+  {
+   "agent": "oracle",
+   "task_id": "rvb-varing--packable--roundtrip-u64",
+   "reward": "1",
+   "expected": "1",
+   "ok": true
+  },
+  {
+   "agent": "tamper",
+   "task_id": "rvb-arxid--permute--round-trip-over-the-whole-domain",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "tamper",
+   "task_id": "rvb-blue--scrunch-binary-search--binary-search-finds-index",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "tamper",
+   "task_id": "rvb-openpql-prelude--util--mixed-radix-roundtrip",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "tamper",
+   "task_id": "rvb-succinct--broadword--count-ones-matches-std",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "tamper",
+   "task_id": "rvb-uint--u64--associative-add",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  },
+  {
+   "agent": "tamper",
+   "task_id": "rvb-varing--packable--roundtrip-u64",
+   "reward": "0",
+   "expected": "0",
+   "ok": true
+  }
+ ],
+ "trajectories": {
+  "schema": "rvb-trajectory-events/1",
+  "benchmark_version": "1.0",
+  "task_set_id": "sha256:a67bbf2739f2a8a1f86a662fd145a5dda1ba85230bb204d73bae4659f72aba12",
+  "target_attempts_per_task": 1,
+  "task_count": 100,
+  "counted_attempts": 100,
+  "per_config": {
+   "glm-5.3-flash-extended": {
+    "attempts_total": 120,
+    "valid": 106,
+    "invalid": 14,
+    "counted": 100,
+    "counted_passed": 37
+   }
+  },
+  "tasks_complete_per_config": {
+   "glm-5.3-flash-extended": 100
+  },
+  "artifact_mismatches": []
+ },
+ "archives": [
+  {
+   "file": "rvb-tasks-v1.0.tar.zst",
+   "bytes": 7522645,
+   "sha256": "429c5ba783082dd453fd8ce801cab21ff17dc2fff03378f567ece925e58fca22"
+  },
+  {
+   "file": "rvb-trajectories-v1.0.tar.zst",
+   "bytes": 15358748,
+   "sha256": "98b3cd5eb465f55008329f44c33bd8babbabbbba65bc9d43988203c9c4657166"
+  }
+ ]
+}

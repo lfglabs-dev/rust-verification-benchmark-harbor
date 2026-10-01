@@ -43,6 +43,11 @@ Validated on all 100 tasks:
 Also checked end to end with Harbor: an agent that rewrites the specification
 to `True` in its own container scores 0.
 
+## Baseline
+
+GLM 5.3 Flash, one attempt per task (budget: 200 turns, 100 min): **37/100**
+solved (easy 18/21, medium 19/47, hard 0/32; eval split 12/24).
+
 ## Contents
 
 | file | contents |
@@ -50,8 +55,9 @@ to `True` in its own container scores 0.
 | `rvb-tasks-v1.0.tar.zst` | the 100 Harbor tasks |
 | `tasks-index.json` | per task: id, difficulty, property class, split, source project, license, fingerprints |
 | `DATASET.md` | task format, scoring, splits, metadata, resources |
+| `rvb-trajectories-v1.0.tar.zst` | one GLM 5.3 Flash attempt per task: conversation, tool calls, proofs, verdict (see `TRAJECTORIES.md`) |
+| `validation-report-v1.0.md` / `.json` | release validation summary, Harbor end-to-end checks, resources, archive checksums |
 | `validation-v1.0.json` | per-task validation results |
-| `sample-trajectories/` | 6 GLM 5.3 Flash runs (5 solved): conversation, tool calls, proofs, verdict |
 
 ## Usage
 
@@ -73,7 +79,5 @@ All task and verifier images build `FROM` this digest.
 
 ## Planned
 
-- Full trajectory set (one attempt per task) and the final validation report
-  with checksums.
 - Larger task sets, prove-or-refute tasks (disproof by counterexample), other
   source languages.
